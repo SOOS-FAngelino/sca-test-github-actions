@@ -7,7 +7,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Run SOOS - Scan for vulnerabilities
-      uses: soos-io/soos-sca-github-action@v1.0.4 
+      uses: soos-io/soos-sca-github-action@v1.2.3 
       with:
         project_name: "selene-github-action-sca"
         client_id: ${{ secrets.SOOS_CLIENT_ID }}
